@@ -1,0 +1,8 @@
+<svg width="426" height="716" viewBox="0 0 426 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.5 12.5H128.5V122H425.5" stroke="black" stroke-dasharray="10 10"/>
+<path d="M2.5 715.5H126V407.5" stroke="black" stroke-dasharray="10 10"/>
+<path d="M0 290H81" stroke="black" stroke-dasharray="10 10"/>
+<circle cx="81" cy="290" r="13" fill="#49B49E"/>
+<circle cx="126" cy="13" r="13" fill="#786CB1"/>
+<circle cx="127" cy="593" r="13" fill="#6989B3"/>
+</svg>
