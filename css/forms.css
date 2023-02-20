@@ -1,0 +1,91 @@
+input,
+label,
+select,
+textarea {
+  font-size: 16px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 0px !important;
+  color: var(--black);
+}
+label,
+textarea {
+  display: block;
+  width: 100%;
+}
+textarea {
+  border: 1px solid var(--blue);
+  min-height: 120px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+textarea:focus {
+  outline: none;
+  border: 1px solid var(--green-blue);
+}
+.mensaje {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.basic-input {
+  border: 0px;
+  border-bottom: 1px solid var(--blue);
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 36px;
+  margin-bottom: 20px;
+}
+.file-input {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: var(--purple);
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 14px 20px;
+  border: 0px;
+  color: var(--white);
+  cursor: pointer;
+}
+.select-input {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: var(--light-blue);
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 14px 20px;
+  border: 0px;
+}
+.enviar-btn {
+  padding: 14px 80px;
+}
+.row-form {
+  position: relative;
+  width: 100%;
+}
+.icon-form {
+  width: 22px;
+  position: absolute;
+  left: 6px;
+  top: 8px;
+}
+.arrow-icon {
+  width: 16px;
+  position: absolute;
+  right: 24px;
+  top: 18px;
+}
+.upload-icon {
+  width: 28px;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+
+/*focus*/
+input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--green-blue);
+}
+select:focus {
+  outline: none;
+}

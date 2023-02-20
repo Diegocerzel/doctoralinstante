@@ -1,0 +1,254 @@
+/*? Hero nuestra causa */
+#hero-causa {
+  position: relative;
+}
+#hero-causa h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+/*? Grid causa */
+#causa {
+  position: relative;
+}
+.grid-causa {
+  width: 100%;
+  padding: 50px 16%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.grid-causa .text {
+  padding: 40px 25px;
+}
+.grid-causa h4 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+}
+.grid-causa p {
+  font-size: 16px;
+}
+
+@media (max-width: 1100px) {
+  .grid-causa {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-causa h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  .grid-causa {
+    grid-template-columns: 1fr;
+    padding: 40px 25px;
+  }
+}
+
+/*? Pasos para donar*/
+#pasos {
+  background-color: #f6f8fb;
+}
+
+.pasos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pasos-grid .item.data {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  align-items: center;
+}
+.pasos-grid .item.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 8%;
+  padding: 20px;
+}
+
+.pasos-grid .item.data img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .pasos-grid .item.data {
+    width: 40%;
+    padding: 20px;
+  }
+  .pasos-grid .item.arrow {
+    width: 10%;
+    padding: 5px;
+  }
+  .pasos-grid .item:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .pasos-grid .item.data {
+    width: 80%;
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+  .pasos-grid .item.data:last-child {
+    margin-bottom: 0px !important;
+  }
+  .pasos-grid .item img {
+    margin-bottom: 0px;
+  }
+  .pasos-grid .item.arrow {
+    display: none;
+  }
+}
+
+/*? Donaciones */
+#donaciones h3 {
+  font-weight: 600;
+}
+
+.donaciones-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50px;
+}
+
+.donaciones-grid .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.donaciones-grid .item .img-wrapp {
+  width: 100%;
+  height: 45vh;
+  margin-bottom: 25px;
+  background-color: var(--light-blue);
+}
+
+.donaciones-grid .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.donaciones-grid a {
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .donaciones-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*? graphics*/
+
+/*Hero*/
+.hero-line1 {
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  width: 20%;
+  top: 10%;
+}
+
+.hero-line2 {
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  width: 32%;
+  top: -40%;
+}
+.rec-azul {
+  position: absolute;
+  z-index: -1;
+  left: 12%;
+  width: 80px;
+  top: 50%;
+}
+.rec-verde {
+  position: absolute;
+  z-index: -1;
+  right: 8%;
+  width: 80px;
+  top: 20%;
+}
+
+@media (max-width: 768px) {
+  .hero-line1 {
+    width: 23%;
+  }
+  .hero-line2 {
+    width: 40%;
+    top: -40%;
+  }
+  .rec-azul {
+    left: 8%;
+    width: 50px;
+    top: 35%;
+    z-index: -1;
+  }
+  .rec-verde {
+    right: 6%;
+    width: 50px;
+    top: 25%;
+    z-index: -1;
+  }
+}
+
+/*Data*/
+.data-line1 {
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  width: 27%;
+  top: 10%;
+}
+.data-line2 {
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  width: 30%;
+  top: 35%;
+}
+
+@media (max-width: 768px) {
+  .data-line1 {
+    width: 30%;
+    top: 20px;
+  }
+  .data-line2 {
+    width: 30%;
+    top: auto;
+    bottom: 20px;
+  }
+}
+
+/*? Dots*/
+.dots1 {
+  position: absolute;
+  z-index: -1;
+  right: 5%;
+  top: 0%;
+  width: 90%;
+}
+.dots2 {
+  position: absolute;
+  z-index: -1;
+  left: 2.5%;
+  bottom: 5%;
+  width: 90%;
+}
